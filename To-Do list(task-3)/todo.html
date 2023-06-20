@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--font awesome icon kit link -->
+    <script
+      src="https://kit.fontawesome.com/83886a5477.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="h1">TO-DO LIST</h1>
+        <div class="task-input">
+        <input
+          type="text"
+          id="add-task"
+          name="todo"
+          placeholder="add tasks"
+          value="" />
+        <div class="flex-button">
+          <button type="button" name="add" id="add-btn" title="Add Task">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <button
+            type="button"
+            name="delete"
+            id="del-btn"
+            title="Remove All Task">
+            <i class="fa-solid fa-trash"></i>
+          </button>
+        </div>
+      </div>
+      <hr />
+      <div class="new-tasks">
+        
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

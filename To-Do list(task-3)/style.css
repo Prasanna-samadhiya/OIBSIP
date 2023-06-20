@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: linear-gradient(to right, #e0e5ec, #91a5ea, #1069cf);
+    font-family: Poppins, sans-serif;
+  }
+  .container {
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+    max-width: 600px;
+    padding: 60px 0;
+    color: white;
+  }
+  .h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 10%;
+    text-align: center;
+  }
+  .flex-button {
+    display: inline;
+    width: 100%;
+  }
+  input {
+    border: none;
+  }
+  input[type="text"] {
+    width: 70%;
+    padding: 5px 10px;
+    outline: none;
+    font-size: 1.2rem;
+    margin-right: -4px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  input[type="text"]:disabled {
+    cursor: default;
+    color: rgb(34, 33, 33);
+    background-color: rgb(255, 255, 255);
+  }
+  input[type="button"] {
+    padding: 5px;
+    font-size: 1.04rem;
+    color: white;
+    margin: 0 -3px;
+  }
+  #add-btn {
+    margin-left: 2px;
+    border: 1px solid white;
+    background-color: #ffffff;
+  }
+  #del-btn {
+    border: 1px solid white;
+    background-color: #ffffff;
+  }
+  .fa-plus {
+    color: rgb(40, 238, 100);
+    font-size: 1.3rem;
+    padding: 6px;
+  }
+  .fa-trash {
+    color: rgb(239, 6, 60);
+    font-size: 1.3rem;
+    padding: 6px;
+  }
+  input[type="button"]:active {
+    transform: scale(0.94);
+  }
+  hr{
+    margin: 20px 10% 20px 10%;
+    background-color: blue;
+    height: 5px;
+  
+    border: none;
+    outline: none;
+  }
+  .new-tasks {
+    margin: 25px auto;
+  }
+  .update-task {
+    margin-left: 10px;
+    background-color: #ffffff;
+  }
+  .rename-task {
+    background-color: #ffffff;
+  }
+  
+  .del-task {
+    background-color: #ffffff;
+  }
+  .task {
+    width: 92%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  
